@@ -1,9 +1,16 @@
 class Hello{
    
-    public static void main(String a[]){
-      int num1 = 2;
-      int num2 = 4;
-      System.out.println(num1 + num2);
+    public static void main(String args[]){
+      //byte b = 125
+      int a = 257;
+      byte k = (byte) a;
+
+      float f = 5.6f;
+
+      int t = (int) f;
+
+      System.out.print(k);
+      System.out.print(t);
     }
 
 }
