@@ -9,8 +9,13 @@ class Hello{
 
       int t = (int) f;
 
-      System.out.print(k);
-      System.out.print(t);
+      //type conveion 
+      byte c = 10;
+      byte d = 30;
+
+      int result = c * d; 
+      System.out.print(result);
+      //System.out.print(t);
     }
 
 }
