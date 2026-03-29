@@ -1,16 +1,14 @@
-class Hello{
+class Hello {
+
+  public static void main(String a[]) {
+    // byte b = 125
+    int i = 1;
    
-    public static void main(String args[]){
-      //byte b = 125
-      int a = 257;
-      byte k = (byte) a;
-
-      float f = 5.6f;
-
-      int t = (int) f;
-
-      System.out.print(k);
-      System.out.print(t);
+    while (i <= 4) {
+      System.out.println(" Hello " + i);
+      i++;
     }
+
+  }
 
 }
