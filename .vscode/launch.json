@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Demo",
+      "request": "launch",
+      "mainClass": "Demo",
+      "projectName": "coursejava_ab312278"
+    },
+    {
+      "type": "java",
       "name": "Debug Current Java File",
       "request": "launch",
       "mainClass": "${file}"
